@@ -140,7 +140,10 @@ body {
     position: relative;
     border-radius: 3px;
     background: #FFFFFF;
-  
+    @media(max-width:391px){
+        width:380px;
+        
+    }
   }
   
   .stories > ion-icon {
